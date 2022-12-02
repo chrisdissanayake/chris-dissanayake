@@ -1,0 +1,32 @@
+---
+title: "Motivation for predictive maintenance"
+author: Chris Dissanayake
+date: '2021-08-07'
+slug: shelter-animals
+categories:
+  - rstats
+  - tidymodels
+tags:
+  - rstats
+  - tidymodels
+subtitle: ''
+summary: "Early stopping can keep an xgboost model from overfitting."
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: true
+projects: []
+---
+
+```{r setup, include=FALSE}
+library(knitr)
+knitr::opts_chunk$set(cache = TRUE, warning = FALSE, message = FALSE, 
+                      echo = TRUE, dpi = 300, cache.lazy = FALSE,
+                      tidy = "styler", fig.width = 8, fig.height = 5)
+library(scales)
+library(tidyverse)
+theme_set(theme_bw())
+update_geom_defaults("rect", list(fill = "midnightblue", alpha = 0.8))
+```
+

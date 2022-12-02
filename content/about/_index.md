@@ -1,9 +1,9 @@
 ---
-title: "About"
+title: "About me"
 description: |
-  A Hugo theme made for R Markdown users.
-show_header: true
-sidebar_left: false
+  A data science blog
+show_header: false
+sidebar_left: true
 # Keep this! Do not edit.
 cascade:
   headless: true
